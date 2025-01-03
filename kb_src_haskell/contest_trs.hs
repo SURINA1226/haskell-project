@@ -23,7 +23,7 @@ rfact = rdrules
      "Mul(S(x), y) -> Add(Mul(x, y), y)",
      "Fact(O) -> S(O)",
      "Fact(S(x)) -> Mul(S(x), Fact(x))"]
-
+--Add(Add(Mul(S(S(S(S(O)))),Fact(S(S(S(S(O)))))),Fact(S(S(S(S(O)))))))
 t_fib15 = Node (FSym "Fib", [mkterm 15])
 t_fact6 = Node (FSym "Fact", [mkterm 6])
 
