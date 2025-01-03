@@ -4,6 +4,9 @@ Haskell を用いて項書換え系を実現し，さらにそれを利用して
 # 使用言語：
 Haskell
 # Lesson 1:Haskellについて
+
 関数型言語Haskell入門:intro_haskell.pdf
+
 Haskellを利用した項書換え系の実現:make_trs.pdf
+
 Haskellを利用した完備化手続きの実現:make_kb.pdf
